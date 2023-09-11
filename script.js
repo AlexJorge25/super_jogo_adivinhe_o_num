@@ -10,7 +10,6 @@ function comecar() {
     tentativas++;
     document.getElementById("tentativas").textContent = "Tentativas:" + tentativas;
     document.getElementById("pontos").textContent = "Pontos:" + pontos;
-    document.getElementById("numero").textContent = numero_aleatorio;
     if (jogada > numero_aleatorio) {
         document.getElementById("painel").textContent = "Numero muito alto";
     }
